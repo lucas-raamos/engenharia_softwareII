@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial, verdana, sans-serif;
+}
+body,html{
+	height: 100%;
+	margin: 0;
+}
+.bg{
+	/*caminho*/
+	background-image: url(../img/fundo.jpg);
+	/*para não repetir a imagem*/
+	background-repeat: no-repeat;
+	/*centralizado*/
+	background-position: center;
+	/*para imagem não rolar junto com a pagina*/
+	background-attachment: fixed;
+}
+#container{
+	/*Definição do layout semi-fluido, onde o maximo de largura suportado será 960px e o minímo será 600px; */
+	max-width: 980px;
+	min-width: 800px;
+	height: 1600px;
+	background-color: #c0c0c0;
+	margin: auto;
+	
+}
+/*este header é pra definir a barra a baixo do nome da loja*/
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #696969;
+	text-align: center;
+}
+header h1{
+		font-family: 'Verdana', sans-serif;
+		font-size: 35px;
+		padding: 10px 20px;
+		/*cor da letra do nome do site*/
+		color:#FFF;
+}
+
+#banner{
+
+	background-image: url(../img/banner2.jpg);
+	width:  980px; 
+	height: 300px;
+	background-position: center;
+
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #DCB6DE;
+	text-align: center;
+}
+nav ul{
+	list-style-position: inside;
+	list-style: none;
+	padding: 10px 20px;
+}
+
+nav ul li{
+	/*Dispõe os elementos em linha, um ao lado do outro*/
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+	padding: 5px 0;
+
+}
+nav ul li:hover{
+	background-color: #D780D7;
+	/*border-bottom: 1px solid white;*/
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+h2{
+	margin-top: 20px;
+	text-align: center;
+
+}
+figure {
+    text-align: center;    
+    background-color:white;
+    width:700px;
+    text-align:center;
+    margin-left: 120px;
+    padding:10px;
+    font-family:'Arial black', sans-serif;
+    /*Tamanho da borda e cor*/
+    border:1px solid black;
+    /*Propriedade utilizada para adicionar efeitos de sombra em volta de um elemento*/
+    box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+    -moz-transform:rotate(-5deg);
+}
+.calca1{
+	margin-top:  20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.calca2{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.calca3{
+	margin-top:  20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.calca4{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.legenda{
+	font-family: 'Arial';
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+p{
+	text-align: left;
+	font-family: 'Arial black';
+}
+
+footer{
+
+	margin-top: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: #696969;
+	
+}
+.rodape{
+
+	font-family: TIMES New Roman;
+	font-size: 14px;
+	text-align: center;
+}
+
+
