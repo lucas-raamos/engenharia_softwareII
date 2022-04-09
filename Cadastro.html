@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/estilosCadastro.css">
+	<meta charset="utf-8">
+	<title>Outlet Clothing</title>	
+</head>	
+<body class="bg">
+	<!-- Esse container engloba toda a minha pagina-->
+<div id="container">
+		<!-- Esse container é o cabeçalho do meu layout -->
+	<header>
+	<h1>OUTLET ©️LOTHING</h1>
+	</header>
+	
+	<figure> 
+		<img src="img/banner3.jpg" id="banner">
+	</figure>
+	
+
+		<nav>
+			<ul>
+				<li>
+				<a href="index.html">Início</a>
+				</li>
+				<li>
+				<a href="Lancamentos.html">Lançamentos</a>
+				</li>
+				<li>
+				<a href="Calcados.html">Calçados</a>
+				</li>
+				<li>
+				<a href="Camisetas.html">Camisetas</a>
+				</li>
+				<li>
+				<a href="Calcas.html">Calças</a>
+				</li>
+				<li>
+				<a href="Casacos.html">Casacos</a>
+				</li>
+				<li>
+				<a href="Cadastro.html">Cadastro</a>
+				</li>
+			</ul>
+		</nav>
+
+		
+		<fieldset>
+		<h2>Faça seu cadastro</h2>
+		
+		<form action="recebedados.php" method="GET">		
+		
+		<br><br>
+		<section class="cadastro">
+		
+		<label for="idnome">Nome Completo: </label>
+		<input required type="text" name="nome" id="idnome" placeholder="Campo obrigatório">
+		<br><br>
+		
+		<label for="ophorassemanais">Gênero</label>
+				<input list="genero" name="genero">
+				<datalist id="genero">
+				<option value="Masculino">
+				<option value="Feminino">
+				<option value="Outro">	
+				</datalist>
+		<br><br>
+		
+		<label for="idnascimento">Data de Nascimento:</label>
+		<input type="date" name="data" id="idnascimento">
+		<br><br>
+		
+		<label for="idemail">E-mail: </label>
+		<input required type="email" name="email" id="idemail" placeholder="Campo obrigatório">
+		<br><br>
+
+		
+		<label for="idendereco">Endereço (Rua,número e complemento): </label>
+		<input required type="text" name="endereço" id="idendereço" placeholder="Campo obrigatório">
+		<br><br>
+		<label for="idestado">Estado: </label>
+		<select id="idestado" name="estado">
+			<option value="(AL)">Alagoas</option>
+			<option value="(AP)">Amapá</option>
+			<option value="(AM)">Amazonas</option>
+			<option value="(BA)">Bahia</option>
+			<option value="(CE)">Ceará</option>
+			<option value="(DF)">Distrito Federal</option>
+			<option value="(ES)">Espirito Santo</option>
+			<option value="(GO)">Goiás</option>
+			<option value="(MA)">Maranhão</option>
+			<option value="(MT)">Mato Grosso</option>
+			<option value="(MS)">Mato Grosso do Sul</option>
+			<option value="(MG)">Minas Gerais</option>
+			<option value="(PA)">Pará</option>
+			<option value="(PB)">Paraíba</option>
+			<option value="(PR)">Paraná</option>
+			<option value="(PE)">Pernambuco</option>
+			<option value="(PI)">Piauí</option>
+			<option value="(RJ)">Rio de Janeiro</option>
+			<option value="(RN)">Rio Grande do Norte</option>
+			<option value="(RS)">Rio Grande do Sul</option>
+			<option value="(RO)">Rondônia</option>
+			<option value="(SC)">Santa Catarina</option>
+			<option value="(SP)">São Paulo</option>
+			<option value="(SE)">Sergipe</option>
+			<option value="(TO)">Tocantins</option>
+			
+
+
+		</select>
+		<br><br>
+		
+		<label for="idcidade">Cidade: </label>
+		<input id="idcidade" name="cidade">
+			
+		<br><br>	
+		
+		<label for="idtel">Telefone:</label>
+		<input type="tel" name="Telefone" id="idtel">
+		<br><br>
+		<input type="submit" name="btn" value="Enviar" id="botao">
+		</form>
+		</section>
+		<br><br>
+		</fieldset>
+		
+		
+		<footer>
+			<p>©️ OUTLET CLOTHING - TODOS OS DIREITOS RESERVADOS - OUTLET Clothing Indústria e Comércio de Vestuários Ltda. CNPJ 25.333.862/0007-98 SAC (51) 33201818</p>
+
+		</footer>
+		</div>
+
+	</body>
+</html>
